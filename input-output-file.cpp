@@ -26,6 +26,6 @@ int main()
     outfile << summ;
     outfile.close();
         
-    fcloseall();         //закрываем все открытые (в нашем случае один) файлы.
+    fcloseall();         //закрываем все открытые файлы.
     return 0;
 }
